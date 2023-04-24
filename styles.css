@@ -2,6 +2,11 @@ body{
   background-color: azure;
 }
 
+*{
+  border: 5px;
+
+}
+
 h1 {
   margin: auto;
   padding-top: 1cm;
@@ -30,13 +35,15 @@ h2 {
 }
 
 /* Style of list */
-#list{
-  /* Background color */
-  background-color: #FFFFAA;
+#container{
   margin-top: 2cm;
   margin-left: 2Q;
   margin-right: 1in;
-  display:  inline-block;
+  display: flex;
+}
+
+#audioAndVideo{
+  display: inline-grid;
 }
 
 /* Style of date */
@@ -58,4 +65,10 @@ video:active {
 
 a:visited {
   color: brown;
+}
+
+@media screen and (max-width: 600px){
+  body{
+      background-color: white;
+  }
 }
