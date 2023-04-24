@@ -1,0 +1,61 @@
+body{
+  background-color: azure;
+}
+
+h1 {
+  margin: auto;
+  padding-top: 1cm;
+  padding-bottom: 0.5em;
+  padding-left: 0,5em;
+  padding-right: 0,5em;
+  border-style: dashed;
+  border-color: red;
+  border-width: 0.2em;
+  border-radius: 0.2em;
+  display: block;
+  position: relative;
+}
+
+h2 {
+  margin: 1cm 1em 1cap 1dvb;
+  position: sticky;
+}
+
+/* Color on the class title */
+.title {
+  color: rgb(red, green, blue);
+  /* Center the title */
+  text-align: center;
+  text-decoration: wavy;
+}
+
+/* Style of list */
+#list{
+  /* Background color */
+  background-color: #FFFFAA;
+  margin-top: 2cm;
+  margin-left: 2Q;
+  margin-right: 1in;
+  display:  inline-block;
+}
+
+/* Style of date */
+.date{
+  margin-left: 1cm;
+  color: hsl(h, s, l);
+  margin-top: 2em;
+  margin-left: 1ch;
+  margin-right: 1vw;
+}
+
+audio:hover {
+  color: #fa1ffa35;
+}
+
+video:active {
+  background-color: blue;
+}
+
+a:visited {
+  color: brown;
+}
